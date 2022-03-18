@@ -21,7 +21,7 @@ At current directory which has all source codes, run main.py with the parameters
 	- lp: {platprob, repr, prob, zero} indicates label propagation method to use, representing {TCLP, ESP, PTP, NOP} in the paper, respectively.
 	- al: {conf, entropy, margin, core, badge, utility}	shows active learning to use, representing {CONF, ENTROPY, MARG, CS, BADGE, UTILITY} in the paper, respectively.
 	- no_plat_reg: {0, 1}	decides whether or not to use width regularization or not. 1 means removing width regularization.
-	- temp: \[1, infinity\] is the parameter T for temperature scaling. T=1 means no temperature scaling.
+	- temp: [1, infinity] is the parameter T for temperature scaling. T=1 means no temperature scaling.
 
 Here's the example running code.
 
