@@ -30,3 +30,17 @@ python3 main.py --dataset HAPT --gpu 0 --seed 0 --lp platprob --al random --no_p
 ```
 5. Classification accuracy at each active learning round is saved in `metadata` folder as `.npy` format.
 
+# Citation
+
+Please use the following form to cite our paper.
+
+```
+@inproceedings{
+shin2022coherencebased,
+title={Coherence-based Label Propagation over Time Series for Accelerated Active Learning},
+author={Yooju Shin and Susik Yoon and Sundong Kim and Hwanjun Song and Jae-Gil Lee and Byung Suk Lee},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=gjNcH0hj0LM}
+}
+```
