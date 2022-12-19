@@ -29,7 +29,7 @@ Here's the example running code.
 ```shell
 python3 main.py --dataset HAPT --gpu 0 --seed 0 --lp platprob --al random --no_plat_reg 1 --temp 2.0
 ```
-5. Classification accuracy at each active learning round is saved in `metadata` folder as `.npy` format.
+Classification accuracy at each active learning round is saved in `metadata` folder as `.npy` format.
 
 # Citation
 
